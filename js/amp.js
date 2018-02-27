@@ -62,7 +62,7 @@ var actionMenu = {
 }
 
 var action = {
-    dowload: function () {
+    download: function () {
         amplitude.getInstance().logEvent('action_download');
     },
     startUse: function () {
